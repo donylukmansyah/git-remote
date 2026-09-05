@@ -1,0 +1,8 @@
+- Remote Repository
+=> Secara default, Git project lokal tidak mengetahui keberadaan Remote Repository di Git Server.
+=> Perlu dilakukan konfigurasi manual untuk mendaftarkan alamat/lokasi Git Remote Repository ke repositori lokal.
+
+- Menambah Remote Repository
+=> Untuk menambahkan remote repository ke repositori lokal, gunakan perintah: git remote add <nama> <ssh-url>.
+=> Konvensi penamaan remote repository utama di Git umumnya menggunakan nama origin.
+
