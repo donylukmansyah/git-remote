@@ -6,3 +6,11 @@
 => Untuk menambahkan remote repository ke repositori lokal, gunakan perintah: git remote add <nama> <ssh-url>.
 => Konvensi penamaan remote repository utama di Git umumnya menggunakan nama origin.
 
+- Melihat Remote Repository
+=> Gunakan perintah git remote untuk melihat daftar nama remote repository yang terdaftar di proyek Git lokal.
+=> Tambahkan flag -v (git remote -v) untuk melihat daftar nama beserta URL-nya sekaligus.
+=> Gunakan perintah git remote get-url <nama> untuk melihat detail URL spesifik dari nama remote repository tertentu (misal: git remote get-url origin).
+
+- Menghapus Remote Repository
+=> Gunakan perintah git remote rm <nama> (atau git remote remove <nama>) untuk menghapus remote repository yang terdaftar di repositori lokal.
+=> Perintah ini hanya memutus relasi remote di lokal, bukan menghapus repositori fisik yang ada di Git Server.
